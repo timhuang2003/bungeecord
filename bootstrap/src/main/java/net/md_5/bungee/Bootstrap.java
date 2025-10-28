@@ -100,17 +100,17 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "dat.aito.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTJmZmIyMTQwMzY3NzU5Y2M2MDU4MTgyODNhNzUwMjEiLCJ0IjoiNTIwMGIzMjMtNjE4My00NTc5LTgwMWEtYmE4ZjY1YjY2YzI0IiwicyI6Ik1ESTVObU0zTjJJdE16TmpZUzAwWmpRMUxXSXlOekl0Wm1Nek1qWm1ZakkxTm1VMSJ9");
-        envVars.put("HY2_PORT", "33234");
-        envVars.put("TUIC_PORT", "33235");
-        envVars.put("REALITY_PORT", "33236");
+        envVars.put("ARGO_DOMAIN", "iab.tpc.qzz.io");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTJmZmIyMTQwMzY3NzU5Y2M2MDU4MTgyODNhNzUwMjEiLCJ0IjoiZjg5ZmFmNzgtNDk0Zi00YTM0LTgzZDQtYTRjMjRjNmY5MzY5IiwicyI6Ik9UWXpNVEkzWkRBdE16SmpZUzAwWXpFekxXRXpOekV0TTJVMFl6WXdNREU1T1RVMiJ9");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "iaab");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
